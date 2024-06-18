@@ -10,11 +10,11 @@ const ServiceCard = ({ index, title, icon }) => {
 	return (
 		<Tilt className='xs:w-[250px] w-full'>
 			<motion.div
-				className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
+				className='bg-gradient-to-r from-[#0597F2] to-[#035AA6] p-[1px] rounded-[20px] shadow-card'
 				variants={fadeIn('right', 'spring', 0.5 * index, 0.75)}
 			>
 				<div
-					className='flex justify-evenly items-center flex-col bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px]'
+					className='flex justify-evenly items-center flex-col rounded-[20px] py-5 px-12 min-h-[280px]'
 					options={{
 						max: 45,
 						scale: 1,

@@ -4,6 +4,9 @@ import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { menu, close, sagologo } from "../assets";
 import { Avatar } from "@mui/material";
+import LanguageSelector from "./Languages";
+import { IconButton } from "@mui/material";
+import { MoreVert } from "@mui/icons-material";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -71,6 +74,7 @@ const Navbar = () => {
             </ul>
           </div>
         </div>
+        <LanguageSelector />
       </div>
     </nav>
   );

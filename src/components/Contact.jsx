@@ -63,14 +63,14 @@ const Contact = () => {
 
 	return (
 		<div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden'>
-			<motion.div className='flex-[0.75] bg-black-100 p-8 rounded-2xl' variants={slideIn('left', 'tween', 0.2, 1)}>
+			<motion.div className='flex-[0.75] bg-tertiary p-8 rounded-2xl' variants={slideIn('left', 'tween', 0.2, 1)}>
 				<p className={styles.sectionSubText}>Get in touch</p>
 				<h3 className={styles.sectionHeadText}>Contact.</h3>
 				<form className='flex flex-col gap-8 mt-12' ref={formRef} onSubmit={handleSubmit} action=''>
 					<label className='flex flex-col'>
 						<span className='text-white font-medium mb-4'>Your Name</span>
 						<input
-							className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+							className='bg-white py-4 px-6 placeholder:text-secondary text-tertiary rounded-lg outline-none border-none font-medium'
 							type='text'
 							name='name'
 							value={form.name}
@@ -86,7 +86,7 @@ const Contact = () => {
 							value={form.email}
 							onChange={handleChange}
 							placeholder="What's your web address?"
-							className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+							className='bg-white py-4 px-6 placeholder:text-secondary text-tertiary rounded-lg outline-none border-none font-medium'
 						/>
 					</label>
 					<label className='flex flex-col'>
@@ -97,12 +97,12 @@ const Contact = () => {
 							value={form.message}
 							onChange={handleChange}
 							placeholder='What you want to say?'
-							className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+							className='bg-white py-4 px-6 placeholder:text-secondary text-tertiary rounded-lg outline-none border-none font-medium'
 						/>
 					</label>
 					<button
 						type='submit'
-						className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
+						className='bg-success py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary hover:bg-green-700 hover:shadow-lg hover:shadow-green-300 transition duration-300'
 					>
 						{loading ? 'Sending...' : 'Send'}
 					</button>

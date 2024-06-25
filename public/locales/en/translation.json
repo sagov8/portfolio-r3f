@@ -1,3 +1,18 @@
 {
+    "hero": {
+        "title": "Hi, I'm",
+        "name": "Santiago.",
+        "subtitle": "I'm a Web Developer with experience in the Frontend, passionate about technology and innovation."
+    },
+    "introduction": {
+        "title": "Introduction",
+        "subtitle": "Overview",
+        "content": "Welcome to my portfolio! I am a passionate software developer with extensive experience in both frontend and backend technologies. My frontend stack includes JavaScript, TypeScript, React, and MUI, through which I have created intuitive and dynamic user interfaces. On the backend, I work with Java-Springboot and Python, developing robust and scalable applications. In addition, I hold certifications in cybersecurity, Scrum, web programming, and data analysis. This diverse skill set allows me to approach projects with a comprehensive perspective, ensuring quality, security, and efficiency at every stage of development. In my portfolio, you will find projects that showcase my dedication to technical excellence and my commitment to innovation. <br/><br/>I invite you to explore it and discover how I can bring value to your next project!"
+    },
+    "navbar": {
+        "about": "About",
+        "work": "Work",
+        "contact": "Contact"
+    },
     "welcomeMessage": "Welcome to React and react-i18next"
 }

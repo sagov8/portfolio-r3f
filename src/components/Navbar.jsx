@@ -5,12 +5,12 @@ import { navLinks } from "../constants";
 import { menu, close, sagologo } from "../assets";
 import { Avatar } from "@mui/material";
 import LanguageSelector from "./Languages";
-import { IconButton } from "@mui/material";
-import { MoreVert } from "@mui/icons-material";
+import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
+  const { t } = useTranslation();
 
   return (
     <nav
@@ -40,7 +40,7 @@ const Navbar = () => {
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(link.title)}
             >
-              <a href={`#${link.id}`}>{link.title}</a>
+              <a href={`#${link.id}`}>{t(`navbar.${link.id}`)}</a>
             </li>
           ))}
         </ul>
@@ -68,7 +68,7 @@ const Navbar = () => {
                     setToggle(!toggle);
                   }}
                 >
-                  <a href={`#${link.id}`}>{link.title}</a>
+                  <a href={`#${link.id}`}>{t(`navbar.${link.id}`)}</a>
                 </li>
               ))}
             </ul>

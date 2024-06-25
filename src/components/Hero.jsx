@@ -17,10 +17,10 @@ const Hero = () => {
 				</div>
 				<div>
 					<h1 className={`${styles.heroHeadText} text-white`}>
-						Hi, I&apos;m <span className='text-[#0597F2]'>Santiago</span>{' '}
+						{t("hero.title")} <span className='text-[#0597F2]'>{t("hero.name")}</span>{' '}
 					</h1>
 					<p className={`${styles.heroSubText} mt-2 text-white-100`}>
-						{t("welcomeMessage")}
+						{t("hero.subtitle")}
 					</p>
 				</div>
 			</div>

@@ -1,3 +1,18 @@
 {
+    "hero": {
+        "title": "Hola, soy",
+        "name": "Santiago.",
+        "subtitle": "Soy un Desarrollador Web con experiencia en el Frontend, apasionado de la tecnología y la innovación."
+    },
+    "introduction": {
+        "title": "Introducción",
+        "subtitle": "Descripción general",
+        "content": "¡Bienvenido a mi portafolio! Soy un apasionado desarrollador de software con una sólida experiencia en tecnologías modernas tanto del lado del frontend como del backend. Mi stack de frontend incluye JavaScript, TypeScript, React y MUI, con los que he creado interfaces de usuario intuitivas y dinámicas. Del lado del backend, trabajo con Java-Springboot y Python, desarrollando aplicaciones robustas y escalables.<br/><br/>Además, estoy certificado en ciberseguridad, Scrum, programación web y análisis de datos, lo que me permite abordar proyectos con una perspectiva integral, asegurando la calidad, seguridad y eficiencia en cada etapa del desarrollo.<br/><br/>En mi portafolio, encontrarás proyectos que reflejan mi dedicación a la excelencia técnica y mi compromiso con la innovación. ¡Te invito a explorarlo y descubrir cómo puedo aportar valor a tu próximo proyecto!"
+    },
+    "navbar": {
+        "about": "Sobre mí",
+        "work": "Experiencia",
+        "contact": "Contacto"
+    },
     "welcomeMessage": "Bienvenido a la aplicación de React i18n"
 }
